@@ -1,2 +1,2 @@
 # Taller-Lenguaje-De-Programacion
-Repositorio de laboratorios y actividades de Taller Lenguaje De Programación.
+Este es el repositorio de los laboratorios y actividades del curso de Taller Lenguaje De Programacion.
