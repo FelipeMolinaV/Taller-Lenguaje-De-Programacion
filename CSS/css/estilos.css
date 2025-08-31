@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFFFFF;
+}
+
+header div{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+main section{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.blanco_font{
+    color:#FFFFFF; 
+}
+.negro_font{
+    color: #272929;
+}
+
+.azul_font{
+    color: #4A6BA1;
+}
+
+.gris_font{
+    color: #C0C0C0;
+}
+
+.rojo_font{
+    color:#BF0514;
+}
+
+.blanco_bg{
+    background-color:#FFFFFF;
+}
+
+.negro_bg{
+    background-color:#272929;
+}
+
+.azul_bg{
+    background-color: #4A6BA1;
+}
+
+.gris_bg{
+    background-color: #C0C0C0;
+}
+
+.rojo_bg{
+    background-color: #BF0514;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.seccion{
+    margin-top: 100px;
+    margin-bottom: 120px; 
+    scroll-margin-top: 0;
+}
+
+.cuadro{
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #272929;
+}
+
+.cuadro img{
+    width: 100%;
+    height: 100%;
+}
+
+#bandera{
+    width: 1200px;
+    height: 200px;
+    padding-left: 150px;
+}
+
+#titulo{
+    font-size: 50px;
+    margin: 0px;
+}
+
+#subtexto{
+    text-align: justify;
+    padding-left: 200px;
+}
+
+#menu{
+    height: 50px;
+}
+
+#menu ul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    line-height: 50px;
+    gap: 100px;
+}
+
+#inicio{
+    height: 900px;
+}
+
+#planes div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    margin-bottom: 50px;
+}
+
+#contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+}
+
+#contacto h1{
+    font-size: 80px;
+}
+
+#contacto form input,
+#contacto form select{
+    width: 500px;
+    height: 30px;
+    font-size: large;
+}
+
+#contacto form textarea{
+    width: 500px;
+    height: 300px;
+    font-size: large;
+}
+
+footer{
+    height: 90px;
+    padding: 5px;
+}
+
+
+
+
