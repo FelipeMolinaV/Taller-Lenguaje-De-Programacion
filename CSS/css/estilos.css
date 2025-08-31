@@ -73,7 +73,7 @@ a{
 
 .encabezado{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -82,9 +82,13 @@ a{
 }
 
 .seccion{
-    margin-top: 100px;
-    margin-bottom: 120px; 
-    scroll-margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 400px;
+    scroll-margin-top: 250px;
+
 }
 
 .cuadro{
@@ -124,51 +128,45 @@ a{
     justify-content: center;
     list-style: none;
     display: flex;
+    align-items: flex-start;
     line-height: 50px;
     gap: 100px;
 }
 
-#inicio{
-    height: 900px;
-}
-
 #planes div{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     gap: 130px;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
 #contacto{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
     gap: 160px;
+    justify-content: space-between;
 }
 
 #contacto h1{
     font-size: 80px;
 }
 
-#contacto form input,
-#contacto form select{
+#contacto div input,
+#contacto div select{
     width: 500px;
     height: 30px;
     font-size: large;
 }
 
-#contacto form textarea{
+#contacto div textarea{
     width: 500px;
-    height: 300px;
+    height: 100px;
     font-size: large;
 }
+
 
 footer{
     height: 90px;
     padding: 5px;
-}
-
-
-
-
+}   
